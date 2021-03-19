@@ -23,7 +23,8 @@ namespace Youtube_Video_to_Mp3
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
-
+            string path = SaveVideoToDisk(txtURL.Text);
+            ConvertMp3(path);
         }
 
         private string SaveVideoToDisk(string link)
@@ -48,4 +49,4 @@ namespace Youtube_Video_to_Mp3
         }
     }
 }
-}
+
