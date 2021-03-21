@@ -1,6 +1,6 @@
 ﻿namespace Youtube_Video_to_Mp3
 {
-    partial class Form1
+    partial class frmYoutubeConv
     {
         /// <summary>
         /// Required designer variable.
@@ -62,7 +62,7 @@
             this.txtURL.Size = new System.Drawing.Size(609, 30);
             this.txtURL.TabIndex = 2;
             // 
-            // Form1
+            // frmYoutubeConv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,8 +70,8 @@
             this.Controls.Add(this.txtURL);
             this.Controls.Add(this.lblIndicator);
             this.Controls.Add(this.btnDownload);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmYoutubeConv";
+            this.Text = "Youtube Converter";
             this.ResumeLayout(false);
             this.PerformLayout();
 

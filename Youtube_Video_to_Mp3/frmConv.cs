@@ -14,9 +14,9 @@ using MediaToolkit.Model;
 
 namespace Youtube_Video_to_Mp3
 {
-    public partial class Form1 : Form
+    public partial class frmYoutubeConv : Form
     {
-        public Form1()
+        public frmYoutubeConv()
         {
             InitializeComponent();
         }
